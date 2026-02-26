@@ -888,4 +888,9 @@ d/* Removi a regra que ocultava as sections - deixar o Thymeleaf controlar */
     color: #f39c12;
 }
 
-#delete_confirm
+#delete-confirmation h4 {
+    color: var(--text-primary);
+    margin: 0 0 1rem 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+}

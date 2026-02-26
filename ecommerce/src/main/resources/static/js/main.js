@@ -15,6 +15,12 @@ document.addEventListener('DOMContentLoaded', function() {
     loadSavedTheme();
 });
 
+// Tornar viewProduct globalmente acessível
+window.viewProduct = function(productId) {
+    console.log(`Ver detalhes do produto ${productId}`);
+    alert(`Visualizando produto ${productId}. Esta funcionalidade será conectada ao backend via Thymeleaf.`);
+};
+
 // Função viewProduct usada nos botões "Detalhe" dos produtos
 function viewProduct(productId) {
     console.log(`Ver detalhes do produto ${productId}`);
